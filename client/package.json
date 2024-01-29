@@ -11,17 +11,21 @@
     "format": "prettier --write \"./**/*.{ts,tsx,json,scss}\""
   },
   "dependencies": {
+    "lucide-react": "^0.317.0",
+    "primereact": "^10.3.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "sass": "^1.70.0"
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+    "@types/node": "^20.11.10",
     "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
     "@typescript-eslint/eslint-plugin": "^6.4.0",
     "@typescript-eslint/parser": "^6.14.0",
     "@vitejs/plugin-react-swc": "^3.5.0",
+    "autoprefixer": "^10.4.17",
     "eslint": "^8.0.1",
     "eslint-config-prettier": "^9.1.0",
     "eslint-config-standard-with-typescript": "^43.0.1",
@@ -32,7 +36,10 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
+    "postcss": "^8.4.33",
+    "postcss-scss": "^4.0.9",
     "prettier": "^3.2.4",
+    "tailwindcss": "^3.4.1",
     "typescript": "*",
     "vite": "^5.0.8"
   }

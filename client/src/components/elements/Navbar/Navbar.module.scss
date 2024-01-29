@@ -1,0 +1,9 @@
+// .navbar {
+//   @apply 
+// }
+
+.navbar {
+  &__button {
+    @apply flex justify-center items-center bg-white text-black p-2 text-center mb-5 rounded-xl hover:bg-zinc-300
+  }
+}

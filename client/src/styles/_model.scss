@@ -1,0 +1,23 @@
+body {
+  @apply bg-background text-white
+}
+
+#root {
+  @apply grid grid-cols-12 
+}
+
+.navbar {
+  @apply col-span-3 h-screen
+}
+
+.page {
+  @apply col-span-9 h-screen bg-content rounded-tl-5xl
+}
+
+[class*='__container'] {
+  @apply max-w-1200 mx-auto px-12 w-full h-full;
+}
+
+[class*='__navContainer'] {
+  @apply max-w-400 mx-auto ;
+}

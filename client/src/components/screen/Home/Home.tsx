@@ -1,7 +1,9 @@
 import { FC } from 'react'
 
+import Layout from '../../layout/Layout'
+
 const Home: FC = () => {
-  return <div>Hello world!!</div>
+  return <Layout></Layout>
 }
 
 export default Home

@@ -1,1 +1,7 @@
-@import './reset';
+// primereact them
+@import 'primereact/resources/themes/lara-dark-blue/theme.css';
+@import 'primereact/resources/primereact.min.css';
+
+@import './_tailwind.scss';
+@import './_reset.scss';
+@import './_model.scss';
